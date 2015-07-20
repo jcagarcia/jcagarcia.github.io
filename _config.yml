@@ -14,3 +14,14 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#   
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-65364013-1'
+  getclicky :
+    site_id :
