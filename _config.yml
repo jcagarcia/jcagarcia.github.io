@@ -1,8 +1,8 @@
 # Site settings
 title: Juan Carlos García 
-header-img: img/home-bg.jpg
+header-img: img/home_bg.jpg
 email: jugade92@gmail.com
-description: "Juan Carlos García Blog"
+description: "Juan Carlos García Blog - All About Spring Roo Project"
 baseurl: ""
 url: "http://jcagarcia.github.io"
 twitter_username: juancaFX
