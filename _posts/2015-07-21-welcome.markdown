@@ -7,17 +7,17 @@ author:     "Juan Carlos García"
 header-img: "img/welcome.jpg"
 ---
 
-<p>At first, thank you for visit my blog and be interested on my work! If you don't know me or you don't know what I do... check <a href="../about">About</a> section</p>
+<p>At first, thank you for visit my blog and be interested on my work! If you don't know me or you don't know what I do... check <a href="http://jcagarcia.github.io/about">About</a> section</p>
 
 <p>Now that you know something about me, it's time to present this new blog!!!</p>
 
 <p>In this site I want to publish articles, tips and tutorials about some different technologies that I use everyday in my work. Some of that technologies will be <i>Spring, Spring Roo, gvNIX, OSGi, Maven</i>, etc... but maybe I will include some challenges related with other technologies.</p>
 
-<p>If you have some question about this blog or about some published post, keep in touch with me using <a href="../contact">Contact</a> section.</p>
+<p>If you have some question about this blog or about some published post, keep in touch with me using <a href="http://jcagarcia.github.io/contact">Contact</a> section.</p>
 
 <p>I hope that you enjoy and learn with this new blog and you find what you were looking for.</p>
 
 <p>Regards,</p>
-</p>Juan Carlos García</p>
+<p><b>Juan Carlos García</b></p>
 
 
