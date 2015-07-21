@@ -4,7 +4,7 @@ title:      "How to increase Spring Roo power with advanced features"
 subtitle:   "Introduction to Spring Roo Add-On Suites"
 date:       2015-07-22 00:00:00
 author:     "Juan Carlos García"
-header-img: "img/addon-suite.jpg"
+header-img: ""
 ---
 
 <p>Since Spring Roo 2.0.0.M1 version, you are able to <b>increase the power</b> of your Spring Roo installation including advanced features.</p> 
@@ -19,41 +19,40 @@ header-img: "img/addon-suite.jpg"
 
 <p>Since Spring Roo 2.0.0.M1 version, Spring Roo has its own <a href="http://projects.spring.io/spring-roo/marketplace/">Marketplace</a> where public Roo Add-On Suites will be published. Right now, only <a href="http://www.gvnix.org/en/index.html">gvNIX Roo Add-On Suite</a> is available to install it, but I hope that you could publish your own Roo Add-On Suite really soon ;)</p>
 
-<img src="../img/gvnix-roo-addon-suite.png"></img>
-
+<img src="http://jcagarcia.github.io//img/gvnix-roo-addon-suite.png" />
 <h3>Steps to include Roo Add-On Suite</h3>
 
 <p>The process to include a "Roo Add-On Suite" on your Spring Roo distribution is really really easy. First of all, let's open Spring Roo 2.0.0.M1 shell:</p>
 
-<img src="../img/spring-roo-2.0.0.M1-shell.png"></img>
+<img src="http://jcagarcia.github.io/img/spring-roo-2.0.0.M1-shell.png" />
 
 <p>Now, you need to install the URL of the repository that contains the Roo Addon Suite, in this case gvNIX Roo Add-On Suite. To do that, you need to open <a href="http://projects.spring.io/spring-roo/marketplace/">Spring Roo Marketplace</a> and copy the "Repository Index URL" that you want to install:</p>
 
-<img src="../img/repository-index-url.png"></img>
+<img src="http://jcagarcia.github.io/img/repository-index-url.png" />
 
 <p>When you have copied the repository index URL, you need to execute the following command on your Spring Roo Shell to install the repository:</p>
 
 ``roo> addon repository add --url http://repository.gvnix.org/index.xml``
 
-<img src="../img/addon-repository-install.png"></img>
+<img src="http://jcagarcia.github.io/img/addon-repository-install.png" />
 
 <p>To know how many Roo Addon Suites contains the repository, you need to run the command below:</p>
 
 ``roo> addon suite list --repository http://repository.gvnix.org/index.xml``
 
-<img src="../img/addon-suite-list.png"></img>
+<img src="http://jcagarcia.github.io/img/addon-suite-list.png" />
 
 <p>Let's install the gvNIX Roo Addon Suite that contains advanced features like jQuery, Bootstrap 3, Leaflet, DataTables, Dandelion DataTables, etc... To do that, execute the following command:</p>
 
 ``roo> addon suite install name --symbolicName org.gvnix.roo.addon.suite``
 
-<img src="../img/addon-suite-install.png"></img>
+<img src="http://jcagarcia.github.io/img/addon-suite-install.png" />
 
 <p>To validate that all the advanced features included on gvNIX Roo Add-On Suite were included on your Spring Roo installation, you could execute the following command:</p>
 
 ``roo> addon list``
 
-<img src="../img/gvnix-elements.png"></img>
+<img src="http://jcagarcia.github.io/img/gvnix-elements.png" />
 
 <p>Congratulations!!! You have increased the power of your Spring Roo installation!!!!</p>
 
@@ -70,7 +69,7 @@ header-img: "img/addon-suite.jpg"
 
 <p>If you follow the steps above, you will have a basic petclinic application with Bootstrap appearance on <a href="http://localhost:8080/petclinic">http://localhost:8080/petclinic</a>:</p>
 
-<img src="../img/petclinic-app.png"></img>
+<img src="http://jcagarcia.github.io/img/petclinic-app.png" />
 
 <p>Enjoy with Roo!</p>
 <p><b>Juan Carlos García</b></p>
