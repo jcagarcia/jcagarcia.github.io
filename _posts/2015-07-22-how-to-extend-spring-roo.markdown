@@ -4,14 +4,14 @@ title:      "How to increase Spring Roo power with advanced features"
 subtitle:   "Introduction to Spring Roo Add-On Suites"
 date:       2015-07-22 00:00:00
 author:     "Juan Carlos García"
-header-img: ""
+header-img: "img/green-bg.jpg"
 ---
 
 <p>Since Spring Roo 2.0.0.M1 version, you are able to <b>increase the power</b> of your Spring Roo installation including advanced features.</p> 
 
 <p>The way to do it is using new Spring Roo concept called "Spring Roo Add-On Suites". As you could read on <a href="http://docs.spring.io/spring-roo/docs/2.0.0.M1/reference/html/#roo-addon-suites">Spring Roo reference guide</a>:</p>
 
-<quote>A “Roo Addon Suite” is a great way to package and distribute a set of add-ons together, for example if you want to create advanced features that are not included in Spring Roo Shell by default.</quote> 
+> A “Roo Addon Suite” is a great way to package and distribute a set of add-ons together, for example if you want to create advanced features that are not included in Spring Roo Shell by default.
 
 <p>In this post I'm only going to show you how to include an external "Roo Add-On Suite" in your Spring Roo installation to extend Roo shell with advanced functionalities. In a future post, I will publish a tutorial about "How to create your own Roo Add-On Suite" and how to install it.</p>
 
@@ -60,12 +60,12 @@ header-img: ""
 
 <p>Now, you are going to generate a basic <i>petclinic</i> application with bootstrap appearance... remember that this is possible thanks to gvNIX Roo Add-On Suite!</p>
 
-<p>1. Open Spring Roo 2.0.0.M1 Shell on an empty directory</p>
-<p>2. Execute ``script clinic.roo`` to generate basic petclinic application</p>
-<p>3. Execute ``web mvc jquery setup`` command provided by gvNIX Roo Add-On Suite to install jQuery in your project.</p>
-<p>4. Execute ``web mvc bootstrap setup`` command provided by gvNIX Roo Add-On Suite to install and use Bootstrap layout.</p>
-<p>5. Execute ``exit`` command to quit Spring Roo Shell</p>
-<p>6. Run your generated project on Tomcat server. You could use maven command ``mvn clean compile tomcat:run``.</p>
+<p><b>1.</b> Open Spring Roo 2.0.0.M1 Shell on an empty directory</p>
+<p><b>2.</b> Execute <i>script clinic.roo</i> to generate basic petclinic application</p>
+<p><b>3.</b> Execute <i>web mvc jquery setup</i> command provided by gvNIX Roo Add-On Suite to install jQuery in your project.</p>
+<p><b>4.</b> Execute <i>web mvc bootstrap setup</i> command provided by gvNIX Roo Add-On Suite to install and use Bootstrap layout.</p>
+<p><b>5.</b> Execute <i>exit</i> command to quit Spring Roo Shell</p>
+<p><b>6.</b> Run your generated project on Tomcat server. You could use maven command <i>mvn clean compile tomcat:run</i>.</p>
 
 <p>If you follow the steps above, you will have a basic petclinic application with Bootstrap appearance on <a href="http://localhost:8080/petclinic">http://localhost:8080/petclinic</a>:</p>
 
